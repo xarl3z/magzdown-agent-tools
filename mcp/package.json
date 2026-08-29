@@ -1,0 +1,22 @@
+{
+  "name": "magzdown-mcp",
+  "version": "0.1.0",
+  "description": "MCP server with one tool, open_in_magzdown, that turns markdown into a Magzdown reader link.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "magzdown-mcp": "dist/index.js" },
+  "files": ["dist"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc && chmod +x dist/index.js",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}
