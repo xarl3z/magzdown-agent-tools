@@ -57,3 +57,13 @@ claude mcp add magzdown -e MAGZDOWN_AUTO_OPEN=1 -- node /absolute/path/to/magzdo
 ```
 
 Restart the client after editing the config.
+
+## Run in Docker
+
+A `Dockerfile` at the repo root builds the server:
+
+```bash
+docker build -t magzdown-mcp .
+```
+
+Point a client at it the same way as the Node build, with `docker run -i --rm magzdown-mcp` as the command. The server speaks JSON-RPC on stdin and stdout, so `-i` is required and `-t` must be left off.
