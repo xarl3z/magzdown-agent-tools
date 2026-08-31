@@ -13,7 +13,15 @@ Magzdown renders markdown as a paginated, typeset document at a URL. The documen
 - The user says "open in magzdown" or "give me a magzdown link".
 - You finished a long markdown document and the user will read it rather than edit it.
 
-Do not use it for code, config, or short answers. Do not use it for content the user marked as private and would not want in a shareable URL.
+Do not use it for code, config, or short answers.
+
+## Before you share
+
+The document travels inside the URL, so the link is the document: anyone holding it can read the content, and it lands in browser history and in whatever chat it is pasted into.
+
+- Ask the user before creating a link. Do not share on your own initiative.
+- Refuse if the content carries secrets (keys, tokens, credentials), personal data, or anything the user marked confidential or proprietary. Say what you found and offer a redacted version instead.
+- If you are unsure whether the content is shareable, ask rather than encode.
 
 ## Encoding
 

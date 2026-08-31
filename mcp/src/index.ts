@@ -10,7 +10,9 @@ const TOOL = {
   description:
     "Render markdown as a typeset, paginated document at a Magzdown URL. " +
     "Returns the link; hand it to the user as a markdown link instead of pasting the raw markdown. " +
-    "The document is encoded in the URL, nothing is uploaded. Keep markdown under about 100 KB.",
+    "The document is encoded in the URL, nothing is uploaded, so the link is the document: anyone holding it can read the content. " +
+    "Ask the user before creating a link, and do not encode secrets, personal data, or material marked confidential. " +
+    "Keep markdown under about 100 KB.",
   inputSchema: {
     type: "object",
     properties: {

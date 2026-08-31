@@ -50,3 +50,7 @@ const url = "https://www.magzdown.com/open?md=" +
 ```
 
 Full docs: https://www.magzdown.com/docs
+
+## Caution
+
+The document travels inside the URL, so the link is the document. Anyone holding it can read the content, and it lands in browser history and in whatever chat it is pasted into. Ask before creating a link, and never encode secrets, personal data, or material marked confidential.
