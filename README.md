@@ -1,5 +1,7 @@
 # Magzdown agent tools
 
+[![magzdown-mcp on Glama](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools/badges/score.svg)](https://glama.ai/mcp/servers/xarl3z/magzdown-agent-tools)
+
 Your agent writes a report. Instead of dumping markdown in the chat, it hands you a link that opens as a typeset, paginated document. This repo has three ways to teach an agent that: a Claude Code skill, a Cursor rule, and an MCP server.
 
 ![Paste markdown, get a magazine](assets/paste-to-magazine.gif)
